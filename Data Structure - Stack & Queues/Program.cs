@@ -18,19 +18,17 @@ namespace Data_Structure___Stack___Queues
             switch (option)
             {
                 case 1:
-                    //Stacks stacks = new Stacks();
-
                     Stacks.StackOperations();
                     Stacks.StackFromArray();
-
+                    break;
+                case 2:
+                    Queues.QueueOperations();
                     break;
                 default:
                     Console.WriteLine("Choose Valid Option");
                     break;
-
             }
             Console.ReadLine();
-
         }
     }
 }
