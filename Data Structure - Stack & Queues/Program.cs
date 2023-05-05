@@ -12,7 +12,7 @@ namespace Data_Structure___Stack___Queues
         {
             Console.WriteLine("Welcome to the stack and queues");
             Console.WriteLine("Choose the correct option from the below options ");
-            Console.WriteLine("1.Stack\n2.Queue");
+            Console.WriteLine("1.Stack\n2.Queue\n");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
